@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE USING HTML,CSS AND JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <!-- form 1 -->
+        <form action="" class="form1">
+            <h1>Create Account</h1>
+            <input type="text" name="" placeholder="E-mail">
+            <input type="password" name="" placeholder="Password">
+            <input type="password" name="" placeholder="Confirm Password">
+            <div class="btns">
+                <button type="button" onclick="nextToForm2()">Next</button>
+            </div>
+        </form>
+
+        <!-- form 2 -->
+        <form action="" class="form2">
+            <h1>Personal Details</h1>
+            <input type="text" name="" placeholder="First Name">
+            <input type="text" name="" placeholder="Last Name">
+            <input type="text" name="" placeholder="Mobile no.">
+            <div class="btns">
+                <button type="button" onclick="prevToForm1()">Prev</button>
+                <button type="button" onclick="nextToForm3()">Next</button>
+            </div>
+        </form>
+
+        <!-- form 3 -->
+        <form action="" class="form3">
+            <h1>Social Links</h1>
+            <input type="text" name="" placeholder="LinkedIn">
+            <input type="text" name="" placeholder="Github">
+            <input type="text" name="" placeholder="FaceBook">
+            <div class="btns">
+                <button type="button" onclick="prevToForm2()">Prev</button>
+                <button type="button" onclick="submit()">Submit</button>
+            </div>
+        </form>
+        <div class="progress">
+            <div class="progressBar"></div>
+            <div class="steps">Step 1</div>
+            <div class="steps">Step 2</div>
+            <div class="steps">Step 3</div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
