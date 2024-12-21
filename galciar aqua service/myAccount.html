@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Glacier Aqua Service</title>
+
+    <!-- CSS FILES -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+   
+
+<style>
+
+/* Account Section */
+.account-section {
+  padding: 30px 10%;
+  background-color: #fff;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.account-section h2 {
+  font-size: 2rem;
+  color: #0077cc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: none;
+  height: 80px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+ .btnSave {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btnSave.secondary {
+  background-color: #555;
+}
+
+.btnSave:hover {
+  background-color: #005fa3;
+}
+
+.btnSave.secondary:hover {
+  background-color: #333;
+} 
+
+
+
+  </style>
+</head>
+<body>
+  <!-- ------------------------------------------------------------------------
+                                HEADER PART
+    ----------------------------------------------------------------------->
+
+
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <i class="bi-geo-alt me-2"></i>
+                        Kolkata, India, West Bengal
+                    </p>
+
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:support@msmedost.com">
+                            support@msmedost.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+
+
+                        <li class="social-icon-item">
+                            <a href="https://www.facebook.com/msmedost" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.instagram.com/msmedost/" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.youtube.com/@msmedost" class="social-icon-link bi-youtube"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://api.whatsapp.com/send/?phone=918582848434&text&type=phone_number&app_absent=0"
+                                class="social-icon-link bi-whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <!-- ------------------------------------------------------------------------
+                                NAVBAR PART
+    ----------------------------------------------------------------------->
+
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" class="logo img-fluid" alt="Glacier Aqua Service">
+              <span>
+                  Glacier Aqua Service
+                  <small>💧 Your Trusted Water Purifier Service Provider in Lake Town Kolkata</small>
+              </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <!-- <a class="nav-link click-scroll" href="#top">Home</a> -->
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <!-- <a class="nav-link click-scroll" href="about.html">About</a> -->
+                      <a class="nav-link" href="about.html">About</a>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="service.html" id="navbarDarkDropdownMenuLink" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          Service
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a href="installation.html" class="dropdown-item">INSTALLATION</a></li>
+                          <li><a href="uninstallation.html" class="dropdown-item">UNINSTALLATION</a></li>
+                          <li><a href="#" class="dropdown-item">ROUTINE SERVICE</a></li>
+                          <li><a href="#" class="dropdown-item">REPAIRE SERVICE</a></li>
+                          <li><a href="#" class="dropdown-item">A.M.C SERVICE</a></li>
+                          <li><a href="#" class="dropdown-item">WATER TESTING</a></li>
+                          <li><a href="#" class="dropdown-item">SALE</a></li>
+
+                      </ul>
+                  </li>
+
+                  <li class="nav-item">
+                      <!-- <a class="nav-link click-scroll" href="#section_4">Testimonals</a> -->
+                      <a class="nav-link" href="testimonials.html">Testimonals</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link click-scroll dropdown-toggle" href="#section_5"
+                          id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">Info</a>
+
+                      <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                          <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+
+                          <li><a class="dropdown-item" href="myAccount.html">My Account</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="nav-item">
+                      <!-- <a class="nav-link click-scroll" href="#section_6">Contact</a> -->
+                      <a class="nav-link" href="contact.html">Contact</a>
+
+                      
+                  </li>
+
+                  <li class="nav-item ms-3">
+                      <a class="nav-link custom-btn custom-border-btn btn " href="#" id="book-service-btn">Book Service</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+        </nav>
+
+    <!-- ------------------------------------------------------------------------
+                                CONTACT PART
+    ----------------------------------------------------------------------->
+
+
+
+  <!-- Account Section -->
+  <section class="account-section">
+    <h2>Account Details</h2>
+    <form id="account-form">
+      <!-- Personal Information -->
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Your Name" value="Ankita Prasad" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Your Email" value="ankita@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="Your Phone Number" value="+91-9876543210" required>
+      </div>
+
+      <!-- Address Information -->
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="Your Address" required>123, South Kolkata, West Bengal</textarea>
+      </div>
+
+      <!-- Preferences -->
+      <div class="form-group">
+        <label for="subscription">Service Subscription:</label>
+        <select id="subscription" required>
+          <option value="basic" selected>Basic Plan</option>
+          <option value="premium">Premium Plan</option>
+          <option value="amc">AMC Plan</option>
+        </select>
+      </div>
+
+      <!-- Buttons -->
+      <div class="form-actions">
+        <button type="submit" class="btnSave">Save Changes</button>
+        <button type="button" id="logout-btn" class="btnSave secondary">Logout</button>
+      </div>
+    </form>
+  </section>
+ 
+ 
+
+
+<!-- Book Service Popup -->
+<div class="popup" id="service-popup">
+  <div class="popup-content">
+    <span class="close-btn" id="close-popup">&times;</span>
+    <h2>Book a Service</h2>
+    <form id="book-service-form">
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="Your Phone Number" required>
+      </div>
+      <div class="form-group">
+        <label for="service-type">Service Type:</label>
+        <select id="service-type" required>
+          <option value="installation">Installation</option>
+          <option value="reinstallation">Reinstallation</option>
+          <option value="repair">Repair</option>
+          <option value="maintenance">Maintenance</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="Your Address" required></textarea>
+      </div>
+      <button type="submit" class="btnSubmit">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+ 
+  <!-- ------------------------------------------------------------------------
+                                FOOTER PART
+    ----------------------------------------------------------------------->
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-4">
+                    <img src="images/logo.png" class="logo img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <h5 class="site-footer-title mb-3">Quick Links</h5>
+
+                    <ul class="footer-menu">
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Home</a></li>
+                        
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Services</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">About Us</a></li>
+
+                        <!-- <li class="footer-menu-item"><a href="#" class="footer-menu-link">Causes</a></li> -->
+
+                        <!-- <li class="footer-menu-item"><a href="#" class="footer-menu-link">Become a volunteer</a></li> -->
+
+                        <!-- <li class="footer-menu-item"><a href="#" class="footer-menu-link">Partner with us</a></li> -->
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                    <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+
+                    <p class="text-white d-flex mb-2">
+                        <i class="bi-telephone me-2"></i>
+
+                        <a href="tel: +91 8582 8484 34
+                        " class="site-footer-link">
+                            +91 8582 8484 34
+
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:support@msmedost.com" class="site-footer-link">
+                            support@msmedost.com
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex mt-3">
+                        <i class="bi-geo-alt me-2"></i>
+                        Kolkata, India, West Bengal
+                    </p>
+
+                    <a href="#" class="custom-btn btn mt-3">Get Direction</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <p class="copyright-text mb-0">© Copyright MSMEDOST<a href="#">All Rights Reserved |</a> Designed by Simplified.
+                         </p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                        <ul class="social-icon">
+
+                            <li class="social-icon-item">
+                                <a href="https://www.facebook.com/msmedost" class="social-icon-link bi-facebook"></a>
+                            </li>
+    
+                            <li class="social-icon-item">
+                                <a href="https://www.instagram.com/msmedost/" class="social-icon-link bi-instagram"></a>
+                            </li>
+    
+                            <li class="social-icon-item">
+                                <a href="https://www.youtube.com/@msmedost" class="social-icon-link bi-youtube"></a>
+                            </li>
+    
+                            <li class="social-icon-item">
+                                <a href="https://api.whatsapp.com/send/?phone=918582848434&text&type=phone_number&app_absent=0"
+                                    class="social-icon-link bi-whatsapp"></a>
+                            </li>
+                         </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+ <script src="js/popup.js"></script>
+  <script>
+    // Handle Save Changes
+document.getElementById("account-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  // Capture the updated details
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const phone = document.getElementById("phone").value;
+  const address = document.getElementById("address").value;
+  const subscription = document.getElementById("subscription").value;
+
+  // Mock saving the details (In real scenarios, use an API to save the data)
+  console.log("Updated Account Details:");
+  console.log({ name, email, phone, address, subscription });
+
+  alert("Your account details have been updated successfully!");
+});
+
+// Handle Logout
+document.getElementById("logout-btn").addEventListener("click", () => {
+  alert("You have been logged out!");
+  // Redirect to homepage or login page
+  window.location.href = "index.html";
+});
+
+
+  </script>
+</body>
+</html>
